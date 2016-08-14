@@ -1,7 +1,9 @@
 README.rst
 setup.py
+chain_dl/__init__.py
 chain_dl/__main__.py
 chain_dl/config.py
+chain_dl/globals.py
 chain_dl/log.py
 chain_dl.egg-info/PKG-INFO
 chain_dl.egg-info/SOURCES.txt

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
     A simple chained videos downloader.
     Using the awesome youtube-dl !
