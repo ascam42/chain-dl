@@ -1,0 +1,8 @@
+README.rst
+setup.py
+chain_dl.egg-info/PKG-INFO
+chain_dl.egg-info/SOURCES.txt
+chain_dl.egg-info/dependency_links.txt
+chain_dl.egg-info/entry_points.txt
+chain_dl.egg-info/requires.txt
+chain_dl.egg-info/top_level.txt

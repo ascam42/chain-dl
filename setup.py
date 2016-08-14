@@ -25,7 +25,7 @@ setup(
         url="https://github.com/encein42/chain-dl",
 
         author="Luca Ungaro",
-        author-email="luca.ungaro@hotmail.fr",
+        author_email="luca.ungaro@hotmail.fr",
 
         license="MIT",
 
@@ -39,16 +39,16 @@ setup(
 
             'Operating System :: Unix',
             'Programming Language :: Python :: 3 :: Only'
-        ]
+        ],
 
         keywords="chain video download",
 
-        packages=[
-            'bs4',
-            'llvm'
-        ] + find_packages(),
+        # packages=[
+            # 'bs4',
+            # 'llvm'
+        # ] + find_packages(),
+        packages=find_packages(),
         install_requires=['youtube-dl'],
 
         entry_points={'console_scripts': ['youtube-dl = youtube_dl:main']}
 )
-        

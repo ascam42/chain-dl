@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: chain-dl
+Version: 1.0.0
+Summary: A simple chained videos downloader using the awesome youtube-dl
+Home-page: https://github.com/encein42/chain-dl
+Author: Luca Ungaro
+Author-email: luca.ungaro@hotmail.fr
+License: MIT
+Description: Chain-dl
+        =======================
+        
+        A chained viedeos downloader based on the amazing youtube-dl.
+        
+        It fetches videos URL from a website's iframes and downloads them.
+        
+        See `the full README.md guide <https://github.com/encein42/chain-dl/blob/master/README.md>`_
+         and `the exepmle configuration file <https://github.com/encein42/chain-dl/blob/master/chain-dl/dl_config.ini>`_.
+        
+Keywords: chain video download
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Multimedia :: Video
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3 :: Only
