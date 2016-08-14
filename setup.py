@@ -50,5 +50,5 @@ setup(
         packages=find_packages(),
         install_requires=['youtube-dl'],
 
-        entry_points={'console_scripts': ['youtube-dl = youtube_dl:main']}
+        entry_points={'console_scripts': ['chain-dl = chain_dl:main']}
 )
