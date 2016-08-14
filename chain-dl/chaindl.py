@@ -187,7 +187,7 @@ def show_download(dl_config):
         i += 1
 
 
-if __name__ == '__main__':
+def main():
     parser = __config_parser()
     prog_args = parser.parse_args()
     config_file = DEFAULT_CONFIG_FILE
