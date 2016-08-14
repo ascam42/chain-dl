@@ -3,7 +3,7 @@
     Using the awesome youtube-dl !
 
     Author: Luca Ungaro <luca.ungaro@hotmail.fr>
-    git: https://github.com/encein42/chain-dl
+    git: https://github.com/ascam42/chain-dl
 """
 
 from setuptools import setup, find_packages
@@ -22,7 +22,7 @@ setup(
         description="A simple chained videos downloader using the awesome youtube-dl",
         long_description=long_description,
 
-        url="https://github.com/encein42/chain-dl",
+        url="https://github.com/ascam42/chain-dl",
 
         author="Luca Ungaro",
         author_email="luca.ungaro@hotmail.fr",
