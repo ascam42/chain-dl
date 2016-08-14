@@ -35,7 +35,7 @@ def __episode_not_skipped(idx, video_desc, config_specs):
     ret = True
 
     if (START_EPISODE in config_specs) and \
-       (idx < config_specs[START_EPISODE]):
+       (idx <= config_specs[START_EPISODE]):
         ret = False
         log.warn("Skipping:", video_desc);
     return (ret)
