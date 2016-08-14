@@ -8,36 +8,12 @@
 
 import                  log
 import                  config
+from globals    import  *
 import                  argparse
 import                  configparser
 import                  urllib.request
 from bs4        import  BeautifulSoup
 from subprocess import  call
-
-
-DEFAULT_TIMEOUT =           5
-
-
-DEFAULT_CONFIG_FILE =       "./dl_config.ini"
-
-DOWNLOAD    =               "download"
-TIMEOUT =                   "timeout_sec"
-URL =                       "url"
-CONTENT_CONTAINER_ID    =   "content_container_id"
-CONTENT_CONTAINER_CLASS =   "content_container_class"
-LIST_CONTAINER_ID   =       "list_container_id"
-LIST_CONTAINER_CLASS    =   "list_container_class"
-PREFERRED_HOST  =           "preferred_host"
-IGNORE_HOSTS    =           "ignore_hosts"
-START_EPISODE   =           "start_episode"
-IGNORE_EPISODES =           "ignore_episodes"
-
-ANIME   =                   "show"
-TITLE   =                   "title"
-
-
-YOUTUBE_DL_COMMAND  =       "youtube-dl"
-
 
 
 
@@ -187,7 +163,7 @@ def show_download(dl_config):
         i += 1
 
 
-def main():
+if __name__ == '__main__':
     parser = __config_parser()
     prog_args = parser.parse_args()
     config_file = DEFAULT_CONFIG_FILE

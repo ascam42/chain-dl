@@ -5,7 +5,8 @@
 """
 
 import          log
-from chaindl    import *
+import          imp
+from globals    import *
 
 
 CONFIG_ERR  =   -2
