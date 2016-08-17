@@ -5,6 +5,8 @@ A chained viedeos downloader based on the amazing `youtube-dl`.
 
 This script fetches URL for videos embeded on a "streaming" website and downloads them (via `youtube-dl`).
 
+![download in action](https://github.com/ascam42/chain-dl/blob/master/misc/chain-dl.png)
+
 **Note**: all supported video formats are intrinsically the ones supported by `youtube-dl`.
 
 
@@ -192,6 +194,8 @@ Enjoy
 If your configuration has some problem, `chain-dl` will tell you so. Elsewhere, it will start to download **one video** per episode of your show: either from the `preferred_host`, either from the first host found.
 
 If the video downloads succeeds, `chain-dl` will notify you and jump to the next episode. In the other case, it will try the following video for the current episode.
+
+![download in action](https://github.com/ascam42/chain-dl/blob/master/misc/chain-dl.png)
 
 **Note**: once an episode has been downloaded... It won't be downloaded again, unless the *very* video you've downloaded has been replaced on the streaming site. If you want to force the re-download, just `rm episode-to-re-dl.video`.
 
