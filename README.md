@@ -183,6 +183,21 @@ Now that your [configuration file](https://github.com/ascam42/chain-dl/blob/mast
     ...
     
 **Note**: `chain-dl` is equivalent to `chain-dl -c ./dl_config.ini`
+
+
+
+Enjoy
+---------
+
+If your configuration has some problem, `chain-dl` will tell you so. Elsewhere, it will start to download **one video** per episode of your show: either from the `preferred_host`, either from the first host found.
+
+If the video downloads succeeds, `chain-dl` will notify you and jump to the next episode. In the other case, it will try the following video for the current episode.
+
+**Note**: once an episode has been downloaded... It won't be downloaded again, unless the *very* video you've downloaded has been replaced on the streaming site. If you want to force the re-download, just `rm episode-to-re-dl.video`.
+
+**Note**: you **can** SIGINT `chain-dl`. It handles it. When you'll restart it, the downloader will resume where he left off.
+
+**Note**: HTTPErrors stops `chain-dl`. As an example, a `404 Error` will cancel the current download session. If it happens that one episode page is causing this, you can simply ignore it (i.e. `ignore_episodes` it).
     
     
 
